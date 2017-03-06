@@ -1,7 +1,12 @@
+head {
+  color: 	#ac5353;
+  font-size: 36px;
+  text-align: center;
+}
 h1 {
   color: blue;
   font: Verdana;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 p{}
