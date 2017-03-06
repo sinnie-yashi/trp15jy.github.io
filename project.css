@@ -1,2 +1,6 @@
-head {}
+head {
+  color: red;
+  font: Verdana;
+  font-size: 16px;
+}
 p{}
