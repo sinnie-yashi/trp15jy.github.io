@@ -29,6 +29,7 @@ ul li {
 	color:#221122;
 	font-family: Tahoma;
 	font-size: ;
+	/*removing this style messes up with the other elements. I don't know why*/
 }
 img {
       margin: 40px 0px 0px 0px;
