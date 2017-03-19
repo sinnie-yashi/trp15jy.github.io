@@ -27,6 +27,11 @@ ul li {
 	text-align: center;
 	font-size: 20px;
 }
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
 body {
 	background-color: #e6e6e6;
 }
