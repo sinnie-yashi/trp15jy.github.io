@@ -5,6 +5,10 @@ header {
       background-position: center;
       color: #ff00ff;
     }
+    .NavBar {
+    height: 100px;
+    background-color: #B0C4DE;
+}
     a {
       color: #7466ff;
       font-size: 18px;
