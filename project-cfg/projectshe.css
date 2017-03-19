@@ -19,8 +19,8 @@ header {
     }
 ul li {
 	float: left;
-	width: auto;
-	height: 40px;
+	width: 300px;
+	height: auto;
 	background-color: #e6e6e6;
 	opacity: .8;
 	line-height: 40px;
