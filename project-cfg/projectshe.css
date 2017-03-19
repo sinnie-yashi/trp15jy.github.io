@@ -17,6 +17,8 @@ header {
       list-style: none;
       background: black;
     }
+ul li {
+	float: left;
 body {
 	background-color: #e6e6e6;
 }
