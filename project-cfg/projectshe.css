@@ -114,3 +114,11 @@ footer {
 	font-family: 'Lobster', cursive;
 	clear: both;
 }
+img {
+	margin: 40px 0px 0px 0px;
+	border: 10px solid transparent;
+	border-radius: 50px;
+	width: 400px;
+	height: 450px;
+}
+		
