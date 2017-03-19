@@ -95,6 +95,7 @@ div {
 	padding: 10px;
 	display: inline;
 }
+
 .person {
 	border: 10px solid transparent;
 	margin-bottom: 25px;
@@ -105,8 +106,8 @@ div {
 .person:hover {
 	border-color: #f1f1f1;
 }
-<img src="http://ichef.bbci.co.uk/food/ic/food_16x9_608/cuisines/american_16x9.jpg" class="img-circle person" alt="Random Name">
-<img src="bandmember.jpg" class="img-circle person" alt="Random Name">
+<img src="http://ichef.bbci.co.uk/food/ic/food_16x9_608/cuisines/american_16x9.jpg" class="img-circle" alt="Random Name">
+<img src="bandmember.jpg" class="img-circle" alt="Random Name">
 footer {
 	text-align: center;
 	color: #ff00ff;
