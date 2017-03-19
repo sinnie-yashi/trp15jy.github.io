@@ -20,7 +20,7 @@ header {
 ul li {
 	float: left;
 	width: 300px;
-	height: auto;
+	height: 50px;
 	background-color: #e6e6e6;
 	opacity: .8;
 	line-height: 40px;
