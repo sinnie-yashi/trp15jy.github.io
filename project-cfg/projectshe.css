@@ -29,11 +29,8 @@ ul li {
 }
 ul li a {
 	text-decoration: none;
-	color: white;
+	color: black;
 	display: block;
-}
-ul li a:hover {
-	
 }
 body {
 	background-color: #e6e6e6;
