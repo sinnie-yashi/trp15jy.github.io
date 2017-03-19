@@ -5,6 +5,10 @@ header {
       background-position: center;
       color: #ff00ff;
     }
+£logo {
+	text-indent: -999999px;
+	background: url('circle.jpg');
+}
     .NavBar {
     height: 100px;
     background-color: #B0C4DE;
