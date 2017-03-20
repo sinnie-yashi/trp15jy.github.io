@@ -4,6 +4,8 @@
 <title> She Eats </title>
 		<link type="text/css" rel="stylesheet" href="style.css">
     <meta name="viewport" contents="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="">
 		<link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
@@ -45,25 +47,39 @@
 	<header>
 
 <h1>She Eats...<span>Memorable bites through the world</span></h1>
-<h2></h2>
+<p2>"I'm a London native who left my home to explore the world slowly and thoroughly through my love of food! I’m just a little obsessed with photography, ice-skating, and starting books I have no intention of finishing."</p2>
 	
         </header>
 
 
-		   <div class="container">
-        	 <div class="row">
-<div class="col-xs-12 col-sm-6 col-md-8">
+		   
             <center>
-        	 	<!--This is an attempt of an intro and then we are to have like a big rounded responsive image that will lead to the different dishes/food-->
-        			<!--<div id="press"><p>Start Here</p></div>-->
-        			<!--<p> There is nothing like travelling to different places and exploring the different foods unique to different parts of the world. What better way than to keep tabs on what has been tasted so far..</p>-->
         		
-      <div class="container">
-  <img src="https://my-waterfront.ca/wp/wp-content/uploads/2015/10/HalifaxWaterfrontDining.jpg?download=true" alt="Avatar" class="image" style="width:100%">
-  <div class="middle">
-    <div class="text"><a href="http://americanheritagecooking.com/">American Cuisine</a></div>
-  </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://wallpaperscraft.com/image/fruit_vegetables_fish_garnish_lemon_food_74301_1920x1080.jpg" alt="Avatar" class="image" style="width:100%">
+  <!--<div class="text">Caption Text</div>-->
 </div>
+
+<div class="mySlides fade">
+  <!--<div class="numbertext">2 / 3</div>-->
+  <img src="http://www.gotomyrtlebeach.com/wp-content/uploads/2014/01/SeafoodShrimp-Header.jpg" alt="Avatar" class="image" style="width: 100%">
+  <div class="text">Caption Two</div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+ <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+</div>
+
 
    </center> 
 
@@ -71,7 +87,7 @@
         	</div>
         </div>
 
-
+          <center>
         	<form>
         		<p>Sign up now for a free monthly newsletter from She Eats!</p>
   					<div class="form-inline">
@@ -85,28 +101,45 @@
   						<button type="submit" class="btn btn-default">Submit</button>
 			</form>
 			<!--/*add more content to the footer. Something like a facebook profile of both authors*-->
-
+      </center>
         <div class="footer">
         <center>
-        	<p><span>©Jennifer Yashi and Wiam Sa'ad</span></p>
+       
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+        	<p><span>©Jennifer Yashi and Wiam Saad</span></p>
         </center>
         </div>
 
 
 <script>
-var myIndex = 0;
-carousel();
+var slideIndex = 1;
+showSlides(slideIndex);
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 3 seconds
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
 }
 </script>
 </body>
