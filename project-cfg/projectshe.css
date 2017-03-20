@@ -115,6 +115,14 @@ footer {
 	font-family: 'Lobster', cursive;
 	clear: both;
 }
+a {
+	height: 50px;
+	width: 50px;
+	font-size: 0px;
+	display: inline-block;
+	background: url ('https://img.clipartfest.com/5f501c692bb9c6782efc7af0f4bcf349_facebook-icon-circle-vector-facebook-logo_512-512.png');
+	transition: background .2s;
+}
 img {
 	margin: 30px 0px 0px 0px;
 	border: 10px solid transparent;
