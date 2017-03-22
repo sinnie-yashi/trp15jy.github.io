@@ -58,7 +58,8 @@ a {
 }
 
 .text a {
-  color: white;
+  color: #595959;
+  text-decoration: none;
 }
 ul {
   margin: 0px;
