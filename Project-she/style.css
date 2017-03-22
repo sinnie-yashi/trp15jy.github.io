@@ -17,6 +17,12 @@ h1 {
     color: #262626;
     margin: 60px 0 0 0;
 }
+
+/*h3 {
+  font-family: 'Ranga', cursive;
+  margin: 0px 0 70px 0;
+  font-size: 20px;
+}*/
 p2 {
   color:#262626;
   margin: 0px 0 70px 0;
@@ -33,6 +39,7 @@ p2 {
   text-align: center;
   border-radius: 10px;
   background-size: cover;
+  min-height: 40px;
 }
 
 #myDIV {
@@ -113,6 +120,11 @@ span {
   position: center;
 }
 
+p span a {
+  font-size: 12px;
+  color:#595959;
+  text-decoration: none;
+}
 h1 span {
   font-size: 24px;
   font-family: 'Lobster', cursive;
@@ -298,7 +310,7 @@ form p {
   h1 {
     font-size: 50px;
     line-height: 40px;
-    margin-top: 20px;
+   margin: 60px 0 0 0;
   }
   p2 {
     font-size: 20px;
@@ -315,4 +327,11 @@ form p {
   /*small {
     font-size: 16px;
   }*/
+}
+#title {
+  min-height: 100px;
+}
+
+#subtitle {
+  min-height: 100px;
 }
